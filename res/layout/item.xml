@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/item_layout">
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_margin="3dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:textSize="20sp"
+        android:text=""
+        android:background="@drawable/little_element_field">
+    </TextView>
+</LinearLayout>
